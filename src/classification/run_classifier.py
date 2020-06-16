@@ -39,7 +39,7 @@ def parse_command_line():
                         help="Number of tasks per batch.")
     parser.add_argument("--samples", type=int, default=10,
                         help="Number of samples from q.")
-    parser.add_argument("--test_iterations", type=int, default=10,
+    parser.add_argument("--test_iterations", type=int, default=600,
                         help="test_iterations.")
     parser.add_argument("--learning_rate", "-lr", type=float, default=1e-4,
                         help="Learning rate.")
