@@ -42,3 +42,18 @@ There are a number of ways the repository can be extended:
 * **Data**: to use alternative datasets, a class must be implemented to handle the new dataset. The necessary methods for the class are: ``__init__``, ``get_batch``, ``get_image_height``, ``get_image_width``, and ``get_image_channels``. For example signatures see ``omniglot.py``, ``mini_imagenet.py`` or ``omniglot.py``. Note that the code currently handles only image data. Finally, add the initialization of the class to the file ``data.py``.
 
 * **Feature extractors**: to use alternative feature extractors, simply implement a desired feature extractor in ``features.py`` and change the function call in ``run_classifier.py``. For the required signature of a feature extractor see the function ``extract_features`` in ``features.py``.
+
+Citation
+---------
+If MetaVRF is used in your paper/experiments, please cite the following paper.
+
+@misc{zhen2020learning,
+    title={Learning to Learn Kernels with Variational Random Features},
+    author={Xiantong Zhen and Haoliang Sun and Yingjun Du and Jun Xu and Yilong Yin and Ling Shao and Cees Snoek},
+    year={2020},
+    eprint={2006.06707},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+}
