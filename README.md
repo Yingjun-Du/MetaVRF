@@ -54,6 +54,5 @@ If MetaVRF is used in your paper/experiments, please cite the following paper.
     year={2020},
     eprint={2006.06707},
     archivePrefix={arXiv},
-    primaryClass={cs.LG}   
-}
+    primaryClass={cs.LG}}
 ```
