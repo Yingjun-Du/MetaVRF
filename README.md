@@ -47,7 +47,7 @@ Citation
 ---------
 If MetaVRF is used in your paper/experiments, please cite the following paper.
 
-
+```
 @misc{zhen2020learning,
     title={Learning to Learn Kernels with Variational Random Features},
     author={Xiantong Zhen and Haoliang Sun and Yingjun Du and Jun Xu and Yilong Yin and Ling Shao and Cees Snoek},
@@ -56,5 +56,4 @@ If MetaVRF is used in your paper/experiments, please cite the following paper.
     archivePrefix={arXiv},
     primaryClass={cs.LG}   
 }
-
-}
+```
